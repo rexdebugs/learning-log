@@ -1,0 +1,3 @@
+These are my notes from Day 3.
+Git tracks file history using commits. 
+Staging is like selecting changes before saving a snapshot.
