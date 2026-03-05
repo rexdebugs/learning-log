@@ -36,3 +36,5 @@
 ## Panic button
 
 -'Ctrl + C' = stop a running command
+
+SSH setup complete on Day 9.
