@@ -1,0 +1,12 @@
+# Ignore temporary/editor files
+*.tmp 
+*.swp
+*~
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore environment/secret files (never commit these)
+.env 
+.env.*
