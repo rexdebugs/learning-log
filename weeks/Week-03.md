@@ -28,3 +28,10 @@
 - `./program`
 - `python3 file.py`
 - `python3` (REPL)
+
+## Day 17 — Progress checkpoint
+
+- What I worked on: ****\_\_****
+- What works now: ****\_\_****
+- What is still broken: ****\_\_****
+- Next tiny step: ****\_\_****
