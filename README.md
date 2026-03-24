@@ -119,3 +119,11 @@ The staging area is where I prepare changes before committing them.
 A commit is a saved checkpoint in the history of the repo.
 
 I pushed this repository from my local WSL Git repo to GitHub.
+
+# Day 11 Notes
+
+- A local repo lives on my computer.
+- A remote repo lives on GitHub.
+- `git remote add origin <url>` connects my local repo to GitHub.
+- `git push -u origin main` publishes my local main branch to GitHub and sets upstream tracking.
+- After upstream is set, I can often use just `git push`.
