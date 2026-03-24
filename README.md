@@ -99,3 +99,21 @@ They are related, but they are not the same thing.
 This repository contains my learning notes and setup progress.
 
 I am learning WSL, Linux terminal basics, VS Code, and Git.
+
+# Day 10 Notes
+
+## What each Git command means
+
+- `git init` creates a new Git repository in the current folder.
+- `git status` shows what Git sees right now.
+- `git add README.md` stages README.md for the next commit.
+- `git commit -m "Add initial learning log README"` creates a commit with a message.
+- `git log --oneline` shows a short version of commit history.
+
+## What I learned
+
+A repo is a project folder that Git tracks.
+
+The staging area is where I prepare changes before committing them.
+
+A commit is a saved checkpoint in the history of the repo.
