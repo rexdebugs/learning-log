@@ -140,3 +140,10 @@ pull = getting new changes into an existing local repo
 - A remote repo lives on GitHub.
 - `origin` is the default name for the remote a repo was cloned from.
 - `git remote -v` shows which remote URLs a repo is connected to.
+
+## Commit habits
+
+- Small commits are easier to understand.
+- `git status` tells me what changed and what is staged.
+- Good commit messages describe what changed.
+- `git add .` stages current changes in the current directory.
