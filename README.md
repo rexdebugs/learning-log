@@ -127,3 +127,16 @@ I pushed this repository from my local WSL Git repo to GitHub.
 - `git remote add origin <url>` connects my local repo to GitHub.
 - `git push -u origin main` publishes my local main branch to GitHub and sets upstream tracking.
 - After upstream is set, I can often use just `git push`.
+
+# Clone and pull
+
+clone = downloading a full repo with history
+
+pull = getting new changes into an existing local repo
+
+# What I learned about remotes
+
+- A local repo lives on my machine.
+- A remote repo lives on GitHub.
+- `origin` is the default name for the remote a repo was cloned from.
+- `git remote -v` shows which remote URLs a repo is connected to.
