@@ -143,6 +143,8 @@ pull = getting new changes into an existing local repo
 
 I practiced making small commits on Day 13.
 
+- `git status` shows what changed and what is staged.
+
 ## Commit habits
 
 - Small commits are easier to understand.
