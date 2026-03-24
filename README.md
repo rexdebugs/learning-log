@@ -145,6 +145,8 @@ I practiced making small commits on Day 13.
 
 - `git status` shows what changed and what is staged.
 
+Small commits are easier to understand than huge commits.
+
 ## Commit habits
 
 - Small commits are easier to understand.
