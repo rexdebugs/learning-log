@@ -117,3 +117,5 @@ A repo is a project folder that Git tracks.
 The staging area is where I prepare changes before committing them.
 
 A commit is a saved checkpoint in the history of the repo.
+
+I pushed this repository from my local WSL Git repo to GitHub.
