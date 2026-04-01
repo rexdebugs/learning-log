@@ -172,3 +172,14 @@ An uncommitted bad change is a change I made to a file in my working directory t
 
 ### How git restore helped
 I used `git restore mistakes-demo.txt` to throw away the unwanted uncommitted edit and return the file to its last committed version.
+
+## Day 19 Notes — Reverting a Bad Commit
+
+### What revert means
+`git revert` does not erase history.
+
+### How it works
+It makes a new commit that undoes the effect of an earlier commit.
+
+### Why it feels safe
+This is beginner-safe because the old commit is still visible in history, so I can clearly see what happened.
