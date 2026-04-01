@@ -154,3 +154,21 @@ Small commits are easier to understand than huge commits.
 - Good commit messages describe what changed.
 - `git add .` stages current changes in the current directory.
 
+## Day 16 Notes — First Merge
+
+### What I changed on the branch
+On the `add-command-notes` branch, I added a small README section with notes about Git commands.
+
+### How merge worked
+I switched back to `main` with `git switch main`, then ran `git merge add-command-notes`. Git brought the committed changes from my branch into `main`.
+
+### What confused me
+At first, I had to remember that `git merge branch-name` merges into the branch I am currently on, not the other way around.
+
+## Day 18 Notes
+
+### Uncommitted bad change
+An uncommitted bad change is a change I made to a file in my working directory that I do not want and have not saved in a commit.
+
+### How git restore helped
+I used `git restore mistakes-demo.txt` to throw away the unwanted uncommitted edit and return the file to its last committed version.
