@@ -183,3 +183,23 @@ It makes a new commit that undoes the effect of an earlier commit.
 
 ### Why it feels safe
 This is beginner-safe because the old commit is still visible in history, so I can clearly see what happened.
+
+## Day 21 — Week 3 Review
+
+### How to create and merge a branch
+1. Create and switch to a branch with `git switch -c review-branch`
+2. Edit a file
+3. Stage it with `git add`
+4. Commit it with `git commit -m "message"`
+5. Switch back to main with `git switch main`
+6. Merge with `git merge review-branch`
+
+### How to undo a bad change
+- If the bad change is not committed yet, use `git restore <file>`
+- If the bad change is already committed, use `git revert <commit-id>`
+
+### Git mistakes I made this week
+- Forgetting to check which branch I was on
+- Mixing up `restore` and `revert`
+- Forgetting that merge goes into the branch I am currently on
+- Not checking `git status` before doing the next step
