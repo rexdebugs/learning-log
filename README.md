@@ -203,3 +203,5 @@ This is beginner-safe because the old commit is still visible in history, so I c
 - Mixing up `restore` and `revert`
 - Forgetting that merge goes into the branch I am currently on
 - Not checking `git status` before doing the next step
+
+This repo was opened from the terminal as part of Day 22 practice. 
