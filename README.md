@@ -349,3 +349,28 @@ Important: `git merge branch-name` merges that branch into the branch I am curre
 - Undo committed mistakes
 - Pull changes from GitHub
 - Run simple scripts from WSL
+
+## Day 26 — Rebuild from scratch drill
+
+Today I practiced the full basic Git workflow from memory.
+
+What I rebuilt:
+- created a new folder
+- initialized Git
+- made a README
+- committed it
+- created a GitHub repo
+- connected the remote
+- pushed it
+- made and merged a branch
+- made a bad change
+- recovered from it
+
+What felt easier:
+- opening WSL and starting from terminal
+- making the first commit
+- pushing to GitHub
+
+What still needs repetition:
+- remembering branch names
+- deciding between restore and revert
