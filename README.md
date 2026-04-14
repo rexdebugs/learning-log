@@ -205,3 +205,16 @@ This is beginner-safe because the old commit is still visible in history, so I c
 - Not checking `git status` before doing the next step
 
 This repo was opened from the terminal as part of Day 22 practice. 
+
+## Day 24 — Command-line help
+
+I do not need to memorize every flag.
+
+I need to know help exists and how to search notes.
+
+Today I practiced using:
+- `git --help`
+- `git status --help`
+- `ls --help`
+
+My goal is not to remember everything. My goal is to know how to look things up when I need them.
