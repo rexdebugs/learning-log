@@ -218,3 +218,134 @@ Today I practiced using:
 - `ls --help`
 
 My goal is not to remember everything. My goal is to know how to look things up when I need them.
+
+# learning-log
+
+## What I installed
+
+- WSL2 with Ubuntu
+- VS Code
+- VS Code WSL extension
+- Git
+- GitHub account
+- Python 3 in WSL (if available)
+
+## WSL setup notes
+
+- WSL lets me use Linux command-line tools on Windows.
+- My projects live under `~/projects`.
+- I usually start work by opening WSL and using `cd` to go to a repo.
+- I use `code .` to open the current repo in VS Code.
+- If I feel lost, I use `pwd` and `ls`.
+
+## Useful terminal commands
+
+- `pwd` — show current folder
+- `ls` — list files in current folder
+- `cd <folder>` — move into a folder
+- `cd ..` — move up one folder
+- `cd ~` — go to home folder
+- `mkdir -p <folder>` — create folder and parent folders
+- `touch <file>` — create an empty file
+- `cat <file>` — print a file to terminal
+- `code .` — open current folder in VS Code
+- `bash <script.sh>` — run a shell script
+- `python3 <file.py>` — run a Python file
+- `clear` — clear terminal screen
+
+## Common Git commands
+
+- `git status` — show repo state
+- `git add <file>` — stage a file
+- `git commit -m "message"` — create a commit
+- `git push` — send commits to GitHub
+- `git pull` — bring changes from GitHub to local
+- `git branch` — show branches
+- `git switch <branch>` — switch branches
+- `git switch -c <branch>` — create and switch to a new branch
+- `git merge <branch>` — merge a branch into the current branch
+- `git log --oneline` — show compact commit history
+- `git diff` — show file changes
+- `git restore <file>` — undo an uncommitted change
+- `git revert <commit-id>` — undo a bad commit safely
+- `git --help` — show Git help
+
+## Repo workflow
+
+1. Open WSL
+2. Go to the repo with `cd`
+3. Use `pwd` and `ls` if needed
+4. Open repo with `code .`
+5. Edit files
+6. Run `git status`
+7. Run `git add <file>`
+8. Run `git commit -m "message"`
+9. Run `git push`
+
+## Branching workflow
+
+1. Start on `main`
+2. Run `git switch -c branch-name`
+3. Edit files on the branch
+4. Run `git status`
+5. Run `git add <file>`
+6. Run `git commit -m "message"`
+7. Run `git switch main`
+8. Run `git merge branch-name`
+9. Run `git push`
+
+Important: `git merge branch-name` merges that branch into the branch I am currently on.
+
+## How to undo mistakes
+
+### Bad uncommitted change
+- Run `git status`
+- Run `git diff`
+- Run `git restore <file>` if I want to discard the change
+
+### Bad committed change
+- Run `git log --oneline`
+- Find the bad commit ID
+- Run `git revert <commit-id>`
+
+### Reminder
+- `restore` = uncommitted file change
+- `revert` = committed change
+
+## Mistakes I made and how I fixed them
+
+1. I was in the wrong folder.
+   - Fix: I checked `pwd` and used `cd` to go to the right repo.
+
+2. I forgot to save a file before checking Git.
+   - Fix: I saved the file and ran `git status` again.
+
+3. I tried to merge while on the wrong branch.
+   - Fix: I checked `git branch`, switched to `main`, then merged.
+
+4. I mixed up `git restore` and `git revert`.
+   - Fix: I remembered that `restore` is for uncommitted changes and `revert` is for committed ones.
+
+5. I treated forgetting as failure.
+   - Fix: I used `--help` and searched my notes instead of panicking.
+
+## Things that still confuse me
+
+- I still want more practice with Git history
+- I still want more confidence reading help pages
+- I still want more repetition with branching
+- I still want more confidence running scripts
+- I still sometimes forget which branch I am on
+
+## Things I can do now that I could not do in Week 1
+
+- Open WSL and navigate to repos from terminal
+- Use `pwd`, `ls`, and `cd`
+- Open a repo with `code .`
+- Create repos and push them to GitHub
+- Make commits
+- Create and merge branches
+- Undo uncommitted mistakes
+- Undo committed mistakes
+- Pull changes from GitHub
+- Run simple scripts from WSL
