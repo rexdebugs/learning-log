@@ -375,3 +375,28 @@ What still needs repetition:
 - remembering branch names
 - deciding between restore and revert
  
+ ## Day 29
+
+ What Python is:
+ - Python is a programming language. 
+ - It lets me write instructions that the computer can follow.
+ - It is popular because it is easier to read than many other programming languages
+
+ What a script is:
+ - A script is a program saved in a file.
+ - In Python, a script usually ends in .py.
+
+ What "run a file" means:
+ - To run a file means to tell python to open the file, read the code inside it, and execute those instructions.
+
+ What I did Today:
+ - I confirmed Python works in WSL.
+ - created a hello.py file.
+ - wrote a print statement, and ran it from the terminal.
+
+ What worked:
+ - python3 --version worked and python3 hello.py printed Hello, world!
+
+ Anything that was confusing 
+ - remembering to be in the correct folder before running the file.
+ 
